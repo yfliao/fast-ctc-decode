@@ -24,6 +24,9 @@ $ pip install fast-ctc-decode
 >>> seq
 'ACACTCGCAGCGCGATACGACTGATCGAGATATACTCAGTGTACACAGT'
 ```
+### Notice
+alphabet (sequence): The labels (`including the blank label, which must be first`) in the order given on the inner axis of `network_output`.
+
 
 ## Benchmark
 
